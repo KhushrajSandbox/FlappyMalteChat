@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+
+	</script>
+</head>
+
+<body>
+	<canvas id="canvas" width="288" height="512"></canvas>
+	<div id="fg"></div>
+	<div id="background" style="display: none"></div>
+
+	<div id="chat" style="display: none">
+		<div id="messageLog"></div>
+
+		<div id="controls">
+
+			<input id="name" placeholder="Your name">
+            <textarea id="message" placeholder="Type your message here"></textarea>
+            <button id="send">
+                Send
+            </button>
+            <button id="replay">
+              Replay
+            </button>
+          </div>
+
+    </div>
+	<div id="limit"></div>
+    <div id="score">Score: 0</div>
+    <script src="frontend.js"></script>
+</body>
+
+</html>
